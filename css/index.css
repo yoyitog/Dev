@@ -42,7 +42,6 @@ body {
   margin: 0;  
   
 }
-
 .logo img {
   width: 100px;
   height: 100px;
@@ -255,7 +254,7 @@ h2{
   position: relative;
   width: 300px;
   height: 200px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -266,9 +265,10 @@ h2{
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.card3 svg {
-  width: 48px;
-  fill: #333;
+.card3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
@@ -302,7 +302,7 @@ h2{
   font-weight: 700;
 }
 
-.card3:hover svg {
+.card3:hover img {
   scale: 0;
 }
 
@@ -323,7 +323,7 @@ h2{
   
 }
 
-.Link__instagram {
+.Link__pagina_web {
   padding: 0.8em;
   outline: none;
   border: none;
@@ -333,24 +333,9 @@ h2{
   transition: 0.2s ease-in-out;
 }
 
-.instagram {
-  fill: #cc39a4;
+.pagina_web {
+  fill: #3b39cc;
 }
-
-.Link__twitter {
-  padding: 0.8em;
-  outline: none;
-  border: none;
-  background: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: 0.2s ease-in-out;
-}
-
-.twitter {
-  fill: #03a9f4;
-}
-
 .Link__github {
   padding: 0.8em;
   outline: none;
@@ -360,38 +345,13 @@ h2{
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   transition: 0.2s ease-in-out;
 }
-
-.Link__discord {
-  padding: 0.8em;
-  outline: none;
-  border: none;
-  background: white;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  transition: 0.2s ease-in-out;
-}
-
-.discord {
-  fill: #8c9eff;
-}
-
-.Link__instagram:hover {
+.Link__pagina_web:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #cc39a4;
+  background-color: #0b0983;
 }
 
-.Link__instagram:hover .instagram {
-  fill: white;
-}
-
-.Link__twitter:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #03a9f4;
-}
-
-.Link__twitter:hover .twitter {
+.Link__pagina_web:hover .instagram {
   fill: white;
 }
 
@@ -402,16 +362,6 @@ h2{
 }
 
 .Link__github:hover .github {
-  fill: white;
-}
-
-.Link__discord:hover {
-  cursor: pointer;
-  scale: 1.1;
-  background-color: #8c9eff;
-}
-
-.Link__discord:hover .discord {
   fill: white;
 }
 
