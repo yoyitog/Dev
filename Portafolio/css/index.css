@@ -1,5 +1,5 @@
 body {
-  background-image: url(/imagenes/fondo.png);
+  background-image: url(/Portafolio/imagenes/fondo.png);
 }
 /*menu*/
 .menu {
@@ -364,4 +364,7 @@ h2{
 .Link__github:hover .github {
   fill: white;
 }
+
+
+
 

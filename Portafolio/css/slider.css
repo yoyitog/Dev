@@ -1,0 +1,23 @@
+.contenedor3{
+  background-color: rgb(42, 155, 67);
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.contenedor3  .slider-icon {
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 22); /* 22 images */
+}
+
+.contenedor3 .slider {
+  width: 200px;
+}
+
+.contenedor3 .slider img {
+  width: 100%
+
+}
