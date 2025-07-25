@@ -1,5 +1,5 @@
-.contenedor3{
-  background-color: rgb(42, 155, 67);
+.contenedor3 {
+  background-color: antiquewhite;
   width: 75vw;
   height: auto;
   margin: auto;
@@ -20,4 +20,15 @@
 .contenedor3 .slider img {
   width: 100%
 
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-200px * 11)); /* 22 images */
+    transform: translateX(calc(-200px * 11)); /* 22 images */
+  }
 }
